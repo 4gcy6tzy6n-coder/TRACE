@@ -1,0 +1,249 @@
+{
+  "models": [
+    {
+      "model_name": "gpt2",
+      "arch_info": {
+        "arch": "GPT2LMHeadModel",
+        "hidden_dim": 768,
+        "num_heads": 12,
+        "num_layers": 12,
+        "family": "gpt2",
+        "head_dim": 64
+      },
+      "rqk_gap": {
+        "gap": 0.2017,
+        "ratio": 9.89,
+        "direct_mean": 0.2245,
+        "misleading_mean": 0.0227
+      },
+      "S_X": 0.5417,
+      "probe_accuracy": 0.6333,
+      "m_av_range": {
+        "direct_mean": 0.042425262928009036,
+        "misleading_mean": 0.11873761812845866
+      },
+      "scale_aware_weights": {
+        "r_qk": 0.42,
+        "m_av": 0.1349,
+        "s_x": 0.2617,
+        "c_do": 0.1834
+      },
+      "per_type_rqk": {
+        "misleading_hint": 0.0227,
+        "evidence_gap": 0.0153,
+        "direct_evidence": 0.2245,
+        "multi_step": 0.0202,
+        "conflict": 0.0207
+      },
+      "per_type_mav": {
+        "misleading_hint": 0.1187,
+        "evidence_gap": 0.1852,
+        "direct_evidence": 0.0424,
+        "multi_step": 0.0,
+        "conflict": 0.2464
+      },
+      "per_type_ici_fixed": {
+        "misleading_hint": 0.0354,
+        "evidence_gap": 0.0501,
+        "direct_evidence": 0.0667,
+        "multi_step": 0.005,
+        "conflict": 0.0668
+      },
+      "per_type_ici_calibrated": {
+        "misleading_hint": 0.1673,
+        "evidence_gap": 0.1732,
+        "direct_evidence": 0.2417,
+        "multi_step": 0.1502,
+        "conflict": 0.1837
+      },
+      "pathway_analysis": {
+        "attention_dominant_pct": 0.0,
+        "mlp_dominant_pct": 60.0,
+        "residual_dominant_pct": 40.0,
+        "avg_attention_fraction": 0.0728,
+        "avg_mlp_fraction": 0.4281
+      }
+    },
+    {
+      "model_name": "gpt2-medium",
+      "arch_info": {
+        "arch": "GPT2LMHeadModel",
+        "hidden_dim": 1024,
+        "num_heads": 16,
+        "num_layers": 24,
+        "family": "gpt2",
+        "head_dim": 64
+      },
+      "rqk_gap": {
+        "gap": 0.1334,
+        "ratio": 6.57,
+        "direct_mean": 0.1574,
+        "misleading_mean": 0.024
+      },
+      "S_X": 0.7083,
+      "probe_accuracy": 0.7667,
+      "m_av_range": {
+        "direct_mean": 0.074196195602417,
+        "misleading_mean": 0.13382444779078165
+      },
+      "scale_aware_weights": {
+        "r_qk": 0.2962,
+        "m_av": 0.1154,
+        "s_x": 0.39,
+        "c_do": 0.1984
+      },
+      "per_type_rqk": {
+        "misleading_hint": 0.024,
+        "evidence_gap": 0.0229,
+        "direct_evidence": 0.1574,
+        "multi_step": 0.0259,
+        "conflict": 0.023
+      },
+      "per_type_mav": {
+        "misleading_hint": 0.1338,
+        "evidence_gap": 0.2618,
+        "direct_evidence": 0.0742,
+        "multi_step": 0.0,
+        "conflict": 0.4632
+      },
+      "per_type_ici_fixed": {
+        "misleading_hint": 0.0394,
+        "evidence_gap": 0.0712,
+        "direct_evidence": 0.0579,
+        "multi_step": 0.0065,
+        "conflict": 0.1216
+      },
+      "per_type_ici_calibrated": {
+        "misleading_hint": 0.2988,
+        "evidence_gap": 0.3132,
+        "direct_evidence": 0.3314,
+        "multi_step": 0.2839,
+        "conflict": 0.3365
+      },
+      "pathway_analysis": {
+        "attention_dominant_pct": 0.0,
+        "mlp_dominant_pct": 10.0,
+        "residual_dominant_pct": 90.0,
+        "avg_attention_fraction": 0.041,
+        "avg_mlp_fraction": 0.1426
+      }
+    },
+    {
+      "model_name": "distilgpt2",
+      "arch_info": {
+        "arch": "GPT2LMHeadModel",
+        "hidden_dim": 768,
+        "num_heads": 12,
+        "num_layers": 6,
+        "family": "gpt2",
+        "head_dim": 64
+      },
+      "rqk_gap": {
+        "gap": 0.2192,
+        "ratio": 8.6,
+        "direct_mean": 0.2481,
+        "misleading_mean": 0.0289
+      },
+      "S_X": 0.5833,
+      "probe_accuracy": 0.6667,
+      "m_av_range": {
+        "direct_mean": 0.07172092199325561,
+        "misleading_mean": 0.21098498503367105
+      },
+      "scale_aware_weights": {
+        "r_qk": 0.489,
+        "m_av": 0.1503,
+        "s_x": 0.1834,
+        "c_do": 0.1773
+      },
+      "per_type_rqk": {
+        "misleading_hint": 0.0289,
+        "evidence_gap": 0.0193,
+        "direct_evidence": 0.2481,
+        "multi_step": 0.0225,
+        "conflict": 0.0315
+      },
+      "per_type_mav": {
+        "misleading_hint": 0.211,
+        "evidence_gap": 0.3338,
+        "direct_evidence": 0.0717,
+        "multi_step": 0.0091,
+        "conflict": 0.3853
+      },
+      "per_type_ici_fixed": {
+        "misleading_hint": 0.06,
+        "evidence_gap": 0.0883,
+        "direct_evidence": 0.0799,
+        "multi_step": 0.0079,
+        "conflict": 0.1042
+      },
+      "per_type_ici_calibrated": {
+        "misleading_hint": 0.1528,
+        "evidence_gap": 0.1666,
+        "direct_evidence": 0.2391,
+        "multi_step": 0.1193,
+        "conflict": 0.1803
+      },
+      "pathway_analysis": {
+        "attention_dominant_pct": 0.0,
+        "mlp_dominant_pct": 0.0,
+        "residual_dominant_pct": 100.0,
+        "avg_attention_fraction": 0.0621,
+        "avg_mlp_fraction": 0.1311
+      }
+    }
+  ],
+  "calibration": {
+    "gpt2": {
+      "weights": {
+        "r_qk": 0.2586,
+        "m_av": 0.1724,
+        "s_x": 0.3345,
+        "c_do": 0.2345
+      },
+      "rqk_gap": {
+        "gap": 0.0,
+        "ratio": 1.0,
+        "direct_mean": 0.0,
+        "misleading_mean": 0.0
+      },
+      "s_x": 0.5417,
+      "model_depth": 12,
+      "model_heads": 12
+    },
+    "gpt2-medium": {
+      "weights": {
+        "r_qk": 0.1974,
+        "m_av": 0.1316,
+        "s_x": 0.4447,
+        "c_do": 0.2263
+      },
+      "rqk_gap": {
+        "gap": 0.0,
+        "ratio": 1.0,
+        "direct_mean": 0.0,
+        "misleading_mean": 0.0
+      },
+      "s_x": 0.7083,
+      "model_depth": 24,
+      "model_heads": 16
+    },
+    "distilgpt2": {
+      "weights": {
+        "r_qk": 0.3061,
+        "m_av": 0.2041,
+        "s_x": 0.249,
+        "c_do": 0.2408
+      },
+      "rqk_gap": {
+        "gap": 0.0,
+        "ratio": 1.0,
+        "direct_mean": 0.0,
+        "misleading_mean": 0.0
+      },
+      "s_x": 0.5833,
+      "model_depth": 6,
+      "model_heads": 12
+    }
+  }
+}

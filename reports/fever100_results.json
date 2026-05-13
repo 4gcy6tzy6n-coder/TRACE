@@ -1,0 +1,38 @@
+{
+  "evidence-first": {
+    "rqk": {
+      "SUPPORTS": 0.0168,
+      "REFUTES": 0.0096,
+      "NOT ENOUGH INFO": 0.0132
+    },
+    "mlp_win_rate": 1.0,
+    "mlp_attn_ratio": 2.3,
+    "s_x": 0.9247,
+    "probe_accuracy": 0.9498,
+    "p_value": 0.0
+  },
+  "claim-first": {
+    "rqk": {
+      "SUPPORTS": 0.0172,
+      "REFUTES": 0.0111,
+      "NOT ENOUGH INFO": 0.0168
+    },
+    "mlp_win_rate": 1.0,
+    "mlp_attn_ratio": 2.96,
+    "s_x": 0.9095,
+    "probe_accuracy": 0.9397,
+    "p_value": 0.0
+  },
+  "qa-style": {
+    "rqk": {
+      "SUPPORTS": 0.0114,
+      "REFUTES": 0.0068,
+      "NOT ENOUGH INFO": 0.009
+    },
+    "mlp_win_rate": 1.0,
+    "mlp_attn_ratio": 2.02,
+    "s_x": 0.9848,
+    "probe_accuracy": 0.9899,
+    "p_value": 0.0
+  }
+}

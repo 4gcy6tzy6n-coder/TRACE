@@ -1,0 +1,83 @@
+{
+  "model": "gpt2",
+  "num_layers": 12,
+  "avg_mlp_ablation_drop": -98.14,
+  "avg_attn_ablation_drop": -59.34,
+  "mlp_dominant_layers": 10,
+  "attn_dominant_layers": 2,
+  "avg_mlp_patch_recovery": 0.771,
+  "layer_sweep": [
+    {
+      "layer": 0,
+      "mlp_drop": -9.710250854492188,
+      "attn_drop": -57.6910400390625,
+      "dominant": "Attn"
+    },
+    {
+      "layer": 1,
+      "mlp_drop": -3.725494384765625,
+      "attn_drop": -1.4309234619140625,
+      "dominant": "MLP"
+    },
+    {
+      "layer": 2,
+      "mlp_drop": -5.7364349365234375,
+      "attn_drop": 2.65972900390625,
+      "dominant": "MLP"
+    },
+    {
+      "layer": 3,
+      "mlp_drop": 9.584945678710938,
+      "attn_drop": 3.7261810302734375,
+      "dominant": "MLP"
+    },
+    {
+      "layer": 4,
+      "mlp_drop": 10.51031494140625,
+      "attn_drop": 3.8407135009765625,
+      "dominant": "MLP"
+    },
+    {
+      "layer": 5,
+      "mlp_drop": 4.7443084716796875,
+      "attn_drop": -1.44061279296875,
+      "dominant": "MLP"
+    },
+    {
+      "layer": 6,
+      "mlp_drop": 5.013641357421875,
+      "attn_drop": 2.233154296875,
+      "dominant": "MLP"
+    },
+    {
+      "layer": 7,
+      "mlp_drop": 7.6306610107421875,
+      "attn_drop": 4.812744140625,
+      "dominant": "MLP"
+    },
+    {
+      "layer": 8,
+      "mlp_drop": -16.96184539794922,
+      "attn_drop": 6.3036346435546875,
+      "dominant": "MLP"
+    },
+    {
+      "layer": 9,
+      "mlp_drop": -8.253982543945312,
+      "attn_drop": 4.74847412109375,
+      "dominant": "MLP"
+    },
+    {
+      "layer": 10,
+      "mlp_drop": -41.11956787109375,
+      "attn_drop": 3.0825653076171875,
+      "dominant": "MLP"
+    },
+    {
+      "layer": 11,
+      "mlp_drop": -19.144561767578125,
+      "attn_drop": -29.7418212890625,
+      "dominant": "Attn"
+    }
+  ]
+}

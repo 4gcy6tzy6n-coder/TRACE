@@ -1,0 +1,109 @@
+{
+  "num_pairs": 10,
+  "avg_ICI_faithful": 0.1075,
+  "avg_ICI_unfaithful": 0.1075,
+  "faithful_wins": 0,
+  "unfaithful_wins": 0,
+  "per_pair": [
+    {
+      "id": "fu_001",
+      "faithful_R_QK": 0.024,
+      "faithful_M_AV": 0.1009,
+      "faithful_ICI": 0.0625,
+      "unfaithful_R_QK": 0.024,
+      "unfaithful_M_AV": 0.1009,
+      "unfaithful_ICI": 0.0625,
+      "ICI_diff": 0.0
+    },
+    {
+      "id": "fu_002",
+      "faithful_R_QK": 0.028,
+      "faithful_M_AV": 0.0,
+      "faithful_ICI": 0.014,
+      "unfaithful_R_QK": 0.028,
+      "unfaithful_M_AV": 0.0,
+      "unfaithful_ICI": 0.014,
+      "ICI_diff": 0.0
+    },
+    {
+      "id": "fu_003",
+      "faithful_R_QK": 0.0278,
+      "faithful_M_AV": 0.0,
+      "faithful_ICI": 0.0139,
+      "unfaithful_R_QK": 0.0278,
+      "unfaithful_M_AV": 0.0,
+      "unfaithful_ICI": 0.0139,
+      "ICI_diff": 0.0
+    },
+    {
+      "id": "fu_004",
+      "faithful_R_QK": 0.0258,
+      "faithful_M_AV": 0.0,
+      "faithful_ICI": 0.0129,
+      "unfaithful_R_QK": 0.0258,
+      "unfaithful_M_AV": 0.0,
+      "unfaithful_ICI": 0.0129,
+      "ICI_diff": 0.0
+    },
+    {
+      "id": "fu_005",
+      "faithful_R_QK": 0.0323,
+      "faithful_M_AV": 0.9363,
+      "faithful_ICI": 0.4843,
+      "unfaithful_R_QK": 0.0323,
+      "unfaithful_M_AV": 0.9363,
+      "unfaithful_ICI": 0.4843,
+      "ICI_diff": 0.0
+    },
+    {
+      "id": "fu_006",
+      "faithful_R_QK": 0.0474,
+      "faithful_M_AV": 0.0,
+      "faithful_ICI": 0.0237,
+      "unfaithful_R_QK": 0.0474,
+      "unfaithful_M_AV": 0.0,
+      "unfaithful_ICI": 0.0237,
+      "ICI_diff": 0.0
+    },
+    {
+      "id": "fu_007",
+      "faithful_R_QK": 0.0263,
+      "faithful_M_AV": 0.4753,
+      "faithful_ICI": 0.2508,
+      "unfaithful_R_QK": 0.0263,
+      "unfaithful_M_AV": 0.4753,
+      "unfaithful_ICI": 0.2508,
+      "ICI_diff": 0.0
+    },
+    {
+      "id": "fu_008",
+      "faithful_R_QK": 0.0283,
+      "faithful_M_AV": 0.3483,
+      "faithful_ICI": 0.1883,
+      "unfaithful_R_QK": 0.0283,
+      "unfaithful_M_AV": 0.3483,
+      "unfaithful_ICI": 0.1883,
+      "ICI_diff": 0.0
+    },
+    {
+      "id": "fu_009",
+      "faithful_R_QK": 0.0254,
+      "faithful_M_AV": 0.0,
+      "faithful_ICI": 0.0127,
+      "unfaithful_R_QK": 0.0254,
+      "unfaithful_M_AV": 0.0,
+      "unfaithful_ICI": 0.0127,
+      "ICI_diff": 0.0
+    },
+    {
+      "id": "fu_010",
+      "faithful_R_QK": 0.0231,
+      "faithful_M_AV": 0.0,
+      "faithful_ICI": 0.0115,
+      "unfaithful_R_QK": 0.0231,
+      "unfaithful_M_AV": 0.0,
+      "unfaithful_ICI": 0.0115,
+      "ICI_diff": 0.0
+    }
+  ]
+}

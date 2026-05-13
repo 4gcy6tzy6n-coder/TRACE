@@ -1,0 +1,43 @@
+{
+  "gpt2": {
+    "model_id": "gpt2",
+    "family": "gpt2",
+    "num_layers": 12,
+    "num_heads": 12,
+    "cross_task_rqk": {
+      "conflict": 0.0168,
+      "direct_evidence": 0.2356,
+      "evidence_gap": 0.0163,
+      "misleading_hint": 0.0223,
+      "multi_step": 0.0192
+    },
+    "cross_component_ablation": {
+      "attention": 67.41,
+      "mlp": 114.27,
+      "residual": 124.54
+    },
+    "dominant_component": "residual",
+    "two_phase_mlp": {
+      "early": {
+        "mean": 0.13,
+        "sign": "neutral",
+        "count": 20
+      },
+      "middle": {
+        "mean": -0.27,
+        "sign": "neutral",
+        "count": 20
+      },
+      "late": {
+        "mean": -17.69,
+        "sign": "suppression (Δ<0)",
+        "count": 20
+      },
+      "two_phase_confirmed": false
+    },
+    "S_X": 0.55,
+    "S_X_cot": 0.575,
+    "S_X_cot_delta": 0.025,
+    "permutation_p_value": 0.0
+  }
+}

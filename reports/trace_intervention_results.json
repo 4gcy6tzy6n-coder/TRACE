@@ -1,0 +1,82 @@
+{
+  "raw": {
+    "name": "Raw model (no intervention)",
+    "intervened": 60,
+    "pct": 100.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "ici_before": 0.2027,
+    "ici_after": 0.2027,
+    "ici_delta": 0.0
+  },
+  "cot": {
+    "name": "Chain-of-Thought",
+    "intervened": 60,
+    "pct": 100.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "ici_before": 0.2027,
+    "ici_after": 0.1974,
+    "ici_delta": -0.0053
+  },
+  "confidence_abstain": {
+    "name": "Confidence-based abstention",
+    "intervened": 56,
+    "pct": 93.3,
+    "precision": 1.0,
+    "recall": 0.933,
+    "ici_before": 0.2027,
+    "ici_after": 0.1906,
+    "ici_delta": -0.0121
+  },
+  "trace_reformat": {
+    "name": "TRACE: reformat for low routing",
+    "intervened": 60,
+    "pct": 100.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "ici_before": 0.2027,
+    "ici_after": 0.1971,
+    "ici_delta": -0.0056
+  },
+  "trace_abstain": {
+    "name": "TRACE: conservative for low support",
+    "intervened": 0,
+    "pct": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "ici_before": 0.2027,
+    "ici_after": 0.2027,
+    "ici_delta": 0.0
+  },
+  "trace_conflict_disclose": {
+    "name": "TRACE: conflict disclosure",
+    "intervened": 32,
+    "pct": 53.3,
+    "precision": 1.0,
+    "recall": 0.533,
+    "ici_before": 0.2027,
+    "ici_after": 0.1946,
+    "ici_delta": -0.0081
+  },
+  "trace_filter": {
+    "name": "TRACE: filter misleading cues",
+    "intervened": 15,
+    "pct": 25.0,
+    "precision": 1.0,
+    "recall": 0.25,
+    "ici_before": 0.2027,
+    "ici_after": 0.2008,
+    "ici_delta": -0.0019
+  },
+  "trace_combined": {
+    "name": "TRACE: combined",
+    "intervened": 30,
+    "pct": 50.0,
+    "precision": 1.0,
+    "recall": 0.5,
+    "ici_before": 0,
+    "ici_after": 0,
+    "ici_delta": 0
+  }
+}

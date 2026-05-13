@@ -1,0 +1,16 @@
+{
+  "num_classes": 5,
+  "num_samples": 50,
+  "cv_accuracy_mean": 0.52,
+  "cv_accuracy_std": 0.0748,
+  "random_baseline": 0.2,
+  "S_X": 0.4,
+  "feature_dim": 768,
+  "label_distribution": {
+    "direct_evidence": 10,
+    "conflict": 10,
+    "evidence_gap": 11,
+    "misleading_hint": 10,
+    "multi_step": 9
+  }
+}

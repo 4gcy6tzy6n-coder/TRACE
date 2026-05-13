@@ -1,0 +1,137 @@
+[
+  {
+    "sample_id": "case_001",
+    "reasoning_type": "direct_evidence",
+    "gold_answer": "2023",
+    "C_token_ablation": 0.9251219034194946,
+    "C_attention_ablation": 0.9214942455291748,
+    "token_logit_drop": 16.234420776367188,
+    "attn_logit_drop": 15.988433837890625
+  },
+  {
+    "sample_id": "case_002",
+    "reasoning_type": "direct_evidence",
+    "gold_answer": "Paris",
+    "C_token_ablation": 0.6558272838592529,
+    "C_attention_ablation": 0.9835442304611206,
+    "token_logit_drop": 7.854560852050781,
+    "attn_logit_drop": 23.959861755371094
+  },
+  {
+    "sample_id": "case_003",
+    "reasoning_type": "direct_evidence",
+    "gold_answer": "330 meters",
+    "C_token_ablation": 0.9778503179550171,
+    "C_attention_ablation": 0.7953944206237793,
+    "token_logit_drop": 22.459716796875,
+    "attn_logit_drop": 10.859481811523438
+  },
+  {
+    "sample_id": "case_004",
+    "reasoning_type": "direct_evidence",
+    "gold_answer": "100 degrees Celsius",
+    "C_token_ablation": 0.7505344152450562,
+    "C_attention_ablation": 0.7356003522872925,
+    "token_logit_drop": 9.741775512695312,
+    "attn_logit_drop": 9.408233642578125
+  },
+  {
+    "sample_id": "case_005",
+    "reasoning_type": "direct_evidence",
+    "gold_answer": "6400 km",
+    "C_token_ablation": 0.9866117238998413,
+    "C_attention_ablation": 0.780068039894104,
+    "token_logit_drop": 24.999008178710938,
+    "attn_logit_drop": 10.4554443359375
+  },
+  {
+    "sample_id": "case_006",
+    "reasoning_type": "direct_evidence",
+    "gold_answer": "Guido van Rossum",
+    "C_token_ablation": 0.2728461027145386,
+    "C_attention_ablation": 0.8914082050323486,
+    "token_logit_drop": 2.7993621826171875,
+    "attn_logit_drop": 14.287399291992188
+  },
+  {
+    "sample_id": "case_007",
+    "reasoning_type": "direct_evidence",
+    "gold_answer": "8848 meters",
+    "C_token_ablation": 0.8160865306854248,
+    "C_attention_ablation": 0.41288983821868896,
+    "token_logit_drop": 11.449867248535156,
+    "attn_logit_drop": 4.390899658203125
+  },
+  {
+    "sample_id": "case_008",
+    "reasoning_type": "direct_evidence",
+    "gold_answer": "299792458 m/s",
+    "C_token_ablation": 0.9145697355270386,
+    "C_attention_ablation": 0.705153226852417,
+    "token_logit_drop": 15.547737121582031,
+    "attn_logit_drop": 8.774772644042969
+  },
+  {
+    "sample_id": "case_009",
+    "reasoning_type": "direct_evidence",
+    "gold_answer": "21196 km",
+    "C_token_ablation": 0.9462385177612305,
+    "C_attention_ablation": 0.8370547294616699,
+    "token_logit_drop": 17.945480346679688,
+    "attn_logit_drop": 12.112518310546875
+  },
+  {
+    "sample_id": "case_010",
+    "reasoning_type": "direct_evidence",
+    "gold_answer": "Jupiter",
+    "C_token_ablation": 0.3854178190231323,
+    "C_attention_ablation": 0.6514474153518677,
+    "token_logit_drop": 4.0640716552734375,
+    "attn_logit_drop": 7.7780914306640625
+  },
+  {
+    "sample_id": "case_011",
+    "reasoning_type": "conflict",
+    "gold_answer": "Rayleigh scattering",
+    "C_token_ablation": 0.5413202047348022,
+    "C_attention_ablation": 0.7516529560089111,
+    "token_logit_drop": 6.060211181640625,
+    "attn_logit_drop": 9.767440795898438
+  },
+  {
+    "sample_id": "case_012",
+    "reasoning_type": "conflict",
+    "gold_answer": "Cannot determine from conflicting sources",
+    "C_token_ablation": 0.6885943412780762,
+    "C_attention_ablation": 0.4761471748352051,
+    "token_logit_drop": 8.452774047851562,
+    "attn_logit_drop": 5.179901123046875
+  },
+  {
+    "sample_id": "case_013",
+    "reasoning_type": "conflict",
+    "gold_answer": "Cannot determine due to conflicting evidence",
+    "C_token_ablation": 0.0,
+    "C_attention_ablation": 0.2692408561706543,
+    "token_logit_drop": -11.549957275390625,
+    "attn_logit_drop": 2.7604522705078125
+  },
+  {
+    "sample_id": "case_014",
+    "reasoning_type": "conflict",
+    "gold_answer": "Cannot determine from conflicting reports",
+    "C_token_ablation": 0.06777310371398926,
+    "C_attention_ablation": 0.07078444957733154,
+    "token_logit_drop": 0.67877197265625,
+    "attn_logit_drop": 0.7090301513671875
+  },
+  {
+    "sample_id": "case_015",
+    "reasoning_type": "conflict",
+    "gold_answer": "Evidence is conflicting",
+    "C_token_ablation": 0.0,
+    "C_attention_ablation": 0.04103231430053711,
+    "token_logit_drop": -0.0848846435546875,
+    "attn_logit_drop": 0.410552978515625
+  }
+]

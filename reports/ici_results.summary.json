@@ -1,0 +1,16 @@
+{
+  "num_samples": 20,
+  "avg_ICI": 0.113,
+  "min_ICI": 0.0635,
+  "max_ICI": 0.214,
+  "avg_R_QK": 0.0814,
+  "avg_M_AV": 0.1208,
+  "avg_S_X": 0.25,
+  "avg_C_do": 0.0,
+  "weights": {
+    "r_qk": 0.25,
+    "m_av": 0.25,
+    "s_x": 0.25,
+    "c_do": 0.25
+  }
+}

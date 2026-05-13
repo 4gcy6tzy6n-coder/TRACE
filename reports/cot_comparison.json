@@ -1,0 +1,222 @@
+[
+  {
+    "sample_id": "case_041",
+    "reasoning_type": "evidence_gap",
+    "ICI_no_cot": 0.1501,
+    "ICI_cot": 0.1464,
+    "ICI_diff": -0.0037,
+    "R_QK_no_cot": 0.0302,
+    "R_QK_cot": 0.0269,
+    "M_AV_no_cot": 0.3204,
+    "M_AV_cot": 0.246
+  },
+  {
+    "sample_id": "case_008",
+    "reasoning_type": "direct_evidence",
+    "ICI_no_cot": 0.1314,
+    "ICI_cot": 0.1471,
+    "ICI_diff": 0.0157,
+    "R_QK_no_cot": 0.2758,
+    "R_QK_cot": 0.2758,
+    "M_AV_no_cot": 0.0,
+    "M_AV_cot": 0.0
+  },
+  {
+    "sample_id": "case_002",
+    "reasoning_type": "direct_evidence",
+    "ICI_no_cot": 0.1506,
+    "ICI_cot": 0.1663,
+    "ICI_diff": 0.0157,
+    "R_QK_no_cot": 0.3525,
+    "R_QK_cot": 0.3525,
+    "M_AV_no_cot": 0.0,
+    "M_AV_cot": 0.0
+  },
+  {
+    "sample_id": "case_018",
+    "reasoning_type": "conflict",
+    "ICI_no_cot": 0.1689,
+    "ICI_cot": 0.187,
+    "ICI_diff": 0.0181,
+    "R_QK_no_cot": 0.019,
+    "R_QK_cot": 0.0194,
+    "M_AV_no_cot": 0.4064,
+    "M_AV_cot": 0.4162
+  },
+  {
+    "sample_id": "case_016",
+    "reasoning_type": "conflict",
+    "ICI_no_cot": 0.0836,
+    "ICI_cot": 0.1073,
+    "ICI_diff": 0.0237,
+    "R_QK_no_cot": 0.017,
+    "R_QK_cot": 0.0159,
+    "M_AV_no_cot": 0.0675,
+    "M_AV_cot": 0.1007
+  },
+  {
+    "sample_id": "case_015",
+    "reasoning_type": "conflict",
+    "ICI_no_cot": 0.066,
+    "ICI_cot": 0.0813,
+    "ICI_diff": 0.0153,
+    "R_QK_no_cot": 0.0142,
+    "R_QK_cot": 0.0126,
+    "M_AV_no_cot": 0.0,
+    "M_AV_cot": 0.0
+  },
+  {
+    "sample_id": "case_009",
+    "reasoning_type": "direct_evidence",
+    "ICI_no_cot": 0.1077,
+    "ICI_cot": 0.1233,
+    "ICI_diff": 0.0156,
+    "R_QK_no_cot": 0.1806,
+    "R_QK_cot": 0.1806,
+    "M_AV_no_cot": 0.0,
+    "M_AV_cot": 0.0
+  },
+  {
+    "sample_id": "case_007",
+    "reasoning_type": "direct_evidence",
+    "ICI_no_cot": 0.1071,
+    "ICI_cot": 0.1227,
+    "ICI_diff": 0.0156,
+    "R_QK_no_cot": 0.1784,
+    "R_QK_cot": 0.1784,
+    "M_AV_no_cot": 0.0,
+    "M_AV_cot": 0.0
+  },
+  {
+    "sample_id": "case_035",
+    "reasoning_type": "misleading_hint",
+    "ICI_no_cot": 0.0652,
+    "ICI_cot": 0.0804,
+    "ICI_diff": 0.0152,
+    "R_QK_no_cot": 0.0108,
+    "R_QK_cot": 0.0093,
+    "M_AV_no_cot": 0.0,
+    "M_AV_cot": 0.0
+  },
+  {
+    "sample_id": "case_006",
+    "reasoning_type": "direct_evidence",
+    "ICI_no_cot": 0.1359,
+    "ICI_cot": 0.1516,
+    "ICI_diff": 0.0157,
+    "R_QK_no_cot": 0.2937,
+    "R_QK_cot": 0.2937,
+    "M_AV_no_cot": 0.0,
+    "M_AV_cot": 0.0
+  },
+  {
+    "sample_id": "case_038",
+    "reasoning_type": "misleading_hint",
+    "ICI_no_cot": 0.214,
+    "ICI_cot": 0.1724,
+    "ICI_diff": -0.0416,
+    "R_QK_no_cot": 0.0113,
+    "R_QK_cot": 0.0089,
+    "M_AV_no_cot": 0.5948,
+    "M_AV_cot": 0.3683
+  },
+  {
+    "sample_id": "case_028",
+    "reasoning_type": "evidence_gap",
+    "ICI_no_cot": 0.1422,
+    "ICI_cot": 0.1314,
+    "ICI_diff": -0.0108,
+    "R_QK_no_cot": 0.0118,
+    "R_QK_cot": 0.0101,
+    "M_AV_no_cot": 0.3072,
+    "M_AV_cot": 0.2031
+  },
+  {
+    "sample_id": "case_003",
+    "reasoning_type": "direct_evidence",
+    "ICI_no_cot": 0.099,
+    "ICI_cot": 0.1146,
+    "ICI_diff": 0.0156,
+    "R_QK_no_cot": 0.1459,
+    "R_QK_cot": 0.1459,
+    "M_AV_no_cot": 0.0,
+    "M_AV_cot": 0.0
+  },
+  {
+    "sample_id": "case_048",
+    "reasoning_type": "multi_step",
+    "ICI_no_cot": 0.0669,
+    "ICI_cot": 0.082,
+    "ICI_diff": 0.0151,
+    "R_QK_no_cot": 0.0177,
+    "R_QK_cot": 0.0155,
+    "M_AV_no_cot": 0.0,
+    "M_AV_cot": 0.0
+  },
+  {
+    "sample_id": "case_050",
+    "reasoning_type": "multi_step",
+    "ICI_no_cot": 0.1366,
+    "ICI_cot": 0.1367,
+    "ICI_diff": 0.0001,
+    "R_QK_no_cot": 0.0246,
+    "R_QK_cot": 0.0203,
+    "M_AV_no_cot": 0.2717,
+    "M_AV_cot": 0.2142
+  },
+  {
+    "sample_id": "case_014",
+    "reasoning_type": "conflict",
+    "ICI_no_cot": 0.0635,
+    "ICI_cot": 0.079,
+    "ICI_diff": 0.0155,
+    "R_QK_no_cot": 0.004,
+    "R_QK_cot": 0.0033,
+    "M_AV_no_cot": 0.0,
+    "M_AV_cot": 0.0
+  },
+  {
+    "sample_id": "case_045",
+    "reasoning_type": "multi_step",
+    "ICI_no_cot": 0.0659,
+    "ICI_cot": 0.0811,
+    "ICI_diff": 0.0152,
+    "R_QK_no_cot": 0.0136,
+    "R_QK_cot": 0.0118,
+    "M_AV_no_cot": 0.0,
+    "M_AV_cot": 0.0
+  },
+  {
+    "sample_id": "case_033",
+    "reasoning_type": "misleading_hint",
+    "ICI_no_cot": 0.1009,
+    "ICI_cot": 0.1134,
+    "ICI_diff": 0.0125,
+    "R_QK_no_cot": 0.009,
+    "R_QK_cot": 0.0069,
+    "M_AV_no_cot": 0.1448,
+    "M_AV_cot": 0.1341
+  },
+  {
+    "sample_id": "case_037",
+    "reasoning_type": "misleading_hint",
+    "ICI_no_cot": 0.0644,
+    "ICI_cot": 0.0799,
+    "ICI_diff": 0.0155,
+    "R_QK_no_cot": 0.0076,
+    "R_QK_cot": 0.0069,
+    "M_AV_no_cot": 0.0,
+    "M_AV_cot": 0.0
+  },
+  {
+    "sample_id": "case_047",
+    "reasoning_type": "multi_step",
+    "ICI_no_cot": 0.141,
+    "ICI_cot": 0.1521,
+    "ICI_diff": 0.0111,
+    "R_QK_no_cot": 0.0112,
+    "R_QK_cot": 0.009,
+    "M_AV_no_cot": 0.3028,
+    "M_AV_cot": 0.2869
+  }
+]

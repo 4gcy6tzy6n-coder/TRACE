@@ -1,0 +1,44 @@
+{
+  "raw": {
+    "name": "Raw model",
+    "correct": 3,
+    "wrong": 37,
+    "abstain": 0,
+    "conflict_disclosure": 0,
+    "total": 40,
+    "error_rate": 0.925,
+    "safe_output_rate": 0.0
+  },
+  "filtered": {
+    "name": "TRACE: filter misleading",
+    "correct": 2,
+    "wrong": 38,
+    "abstain": 0,
+    "conflict_disclosure": 0,
+    "total": 40,
+    "error_rate": 0.95,
+    "safe_output_rate": 0.0
+  },
+  "conservative": {
+    "name": "TRACE: conservative for conflict/gap",
+    "correct": 3,
+    "wrong": 34,
+    "abstain": 3,
+    "conflict_disclosure": 0,
+    "total": 40,
+    "error_rate": 0.85,
+    "safe_output_rate": 0.075
+  },
+  "trace_selective": {
+    "name": "TRACE selective",
+    "correct": 2,
+    "wrong": 35,
+    "abstain": 3,
+    "conflict_disclosure": 0,
+    "total": 40,
+    "error_rate": 0.875,
+    "safe_output_rate": 0.075,
+    "intervened": 40,
+    "fire_rate": 1.0
+  }
+}

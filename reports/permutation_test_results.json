@@ -1,0 +1,22 @@
+{
+  "label_permutation": {
+    "real_accuracy": 0.805,
+    "shuffled_mean": 0.2043,
+    "shuffled_std": 0.0318,
+    "p_value": 0.0,
+    "significant": true
+  },
+  "random_states": {
+    "accuracy": 0.15,
+    "S_X": 0.0
+  },
+  "token_count_baseline": {
+    "accuracy": 0.41,
+    "S_X": 0.2625
+  },
+  "residual_probe": {
+    "accuracy": 0.805,
+    "std": 0.04,
+    "S_X": 0.7562
+  }
+}

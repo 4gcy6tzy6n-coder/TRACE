@@ -1,0 +1,46 @@
+[
+  {
+    "model_name": "gpt2-medium",
+    "model_id": "gpt2-medium",
+    "arch_info": {
+      "arch": "GPT2LMHeadModel",
+      "hidden_dim": 1024,
+      "num_heads": 16,
+      "num_layers": 24,
+      "family": "gpt2",
+      "head_dim": 64
+    },
+    "S_X": 0.7083,
+    "probe_accuracy": 0.7667,
+    "num_samples_evaluated": 20,
+    "per_type": {
+      "misleading_hint": {
+        "ici": 0.1818,
+        "rqk": 0.0189,
+        "mav": 0.0
+      },
+      "evidence_gap": {
+        "ici": 0.2354,
+        "rqk": 0.0185,
+        "mav": 0.2149
+      },
+      "direct_evidence": {
+        "ici": 0.2355,
+        "rqk": 0.1622,
+        "mav": 0.0714
+      },
+      "multi_step": {
+        "ici": 0.1856,
+        "rqk": 0.0342,
+        "mav": 0.0
+      },
+      "conflict": {
+        "ici": 0.2201,
+        "rqk": 0.0188,
+        "mav": 0.1533
+      }
+    },
+    "overall_avg_ICI": 0.2192,
+    "overall_avg_R_QK": 0.0784
+  }
+]

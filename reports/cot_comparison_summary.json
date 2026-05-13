@@ -1,0 +1,30 @@
+{
+  "num_samples": 20,
+  "avg_ICI_no_cot": 0.113,
+  "avg_ICI_cot": 0.1228,
+  "mean_diff": 0.0098,
+  "by_type": {
+    "evidence_gap": {
+      "avg_no_cot": 0.1462,
+      "avg_cot": 0.1389
+    },
+    "direct_evidence": {
+      "avg_no_cot": 0.122,
+      "avg_cot": 0.1376
+    },
+    "conflict": {
+      "avg_no_cot": 0.0955,
+      "avg_cot": 0.1136
+    },
+    "misleading_hint": {
+      "avg_no_cot": 0.1111,
+      "avg_cot": 0.1115
+    },
+    "multi_step": {
+      "avg_no_cot": 0.1026,
+      "avg_cot": 0.113
+    }
+  },
+  "S_X_no_cot": 0.25,
+  "S_X_cot": 0.3125
+}

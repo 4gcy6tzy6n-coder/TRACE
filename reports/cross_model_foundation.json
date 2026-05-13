@@ -1,0 +1,107 @@
+[
+  {
+    "model_key": "gpt2",
+    "model_id": "gpt2",
+    "family": "GPT-2",
+    "params": "124M",
+    "status": "completed",
+    "claims": {
+      "c1_rqk_routing": {
+        "direct_mean": 0.2356,
+        "misleading_mean": 0.0223,
+        "ratio": 10.6,
+        "pass": true
+      },
+      "c2_mlp_dominance": {
+        "attention_abs_delta": 67.4,
+        "mlp_abs_delta": 114.3,
+        "mlp_attn_ratio": 1.7,
+        "pass": true
+      },
+      "c3_residual_state": {
+        "probe_accuracy": 0.6017,
+        "S_X": 0.5021,
+        "shuffled_accuracy": 0.186,
+        "p_value": 0.0,
+        "pass": true
+      }
+    },
+    "errors": [],
+    "num_layers": 12,
+    "num_heads": 12,
+    "detected_family": "gpt2",
+    "claims_passed": 3,
+    "claims_total": 3,
+    "elapsed_seconds": 21.0
+  },
+  {
+    "model_key": "gpt2-medium",
+    "model_id": "gpt2-medium",
+    "family": "GPT-2",
+    "params": "355M",
+    "status": "completed",
+    "claims": {
+      "c1_rqk_routing": {
+        "direct_mean": 0.1694,
+        "misleading_mean": 0.0222,
+        "ratio": 7.6,
+        "pass": true
+      },
+      "c2_mlp_dominance": {
+        "attention_abs_delta": 74.5,
+        "mlp_abs_delta": 56.4,
+        "mlp_attn_ratio": 0.76,
+        "pass": false
+      },
+      "c3_residual_state": {
+        "probe_accuracy": 0.663,
+        "S_X": 0.5787,
+        "shuffled_accuracy": 0.2027,
+        "p_value": 0.0,
+        "pass": true
+      }
+    },
+    "errors": [],
+    "num_layers": 24,
+    "num_heads": 16,
+    "detected_family": "gpt2",
+    "claims_passed": 2,
+    "claims_total": 3,
+    "elapsed_seconds": 55.0
+  },
+  {
+    "model_key": "qwen-0.5b",
+    "model_id": "Qwen/Qwen2.5-0.5B",
+    "family": "Qwen2.5",
+    "params": "494M",
+    "status": "completed",
+    "claims": {
+      "c1_rqk_routing": {
+        "direct_mean": 0.2338,
+        "misleading_mean": 0.0134,
+        "ratio": 17.4,
+        "pass": true
+      },
+      "c2_mlp_dominance": {
+        "attention_abs_delta": 1.6,
+        "mlp_abs_delta": 2.3,
+        "mlp_attn_ratio": 1.43,
+        "pass": true
+      },
+      "c3_residual_state": {
+        "probe_accuracy": 0.761,
+        "S_X": 0.7013,
+        "shuffled_accuracy": 0.1893,
+        "p_value": 0.0,
+        "pass": true
+      }
+    },
+    "errors": [],
+    "num_layers": 24,
+    "num_heads": 14,
+    "detected_family": "llama",
+    "claims_passed": 3,
+    "claims_total": 3,
+    "elapsed_seconds": 100.0
+  }
+]
